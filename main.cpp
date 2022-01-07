@@ -37,7 +37,7 @@ void display() {
     cameraApply();                                    // Eck camera
 
     // Use this material for all the vertices of the object
-    float object_color[] = { 0.15f, 0.25f, 0.39f, 1.0f };   // The color of Dr. Crawley's sweater today
+    float object_color[] = {0.15f, 0.25f, 0.39f, 1.0f};   // Prism color
     glMaterialfv(GL_FRONT, GL_DIFFUSE, object_color);
     glMaterialfv(GL_FRONT, GL_SPECULAR, object_color);
     glMaterialfv(GL_FRONT, GL_AMBIENT, object_color);
